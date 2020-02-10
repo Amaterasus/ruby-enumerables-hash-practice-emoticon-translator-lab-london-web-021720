@@ -7,8 +7,10 @@ def load_library(file)
   
   emoticons = YAML.load_file(file)
   
-  emoticons
+  pp emoticons
 end
+
+load_library("emoticons.yml")
 
 def get_japanese_emoticon
   # code goes here
