@@ -13,7 +13,7 @@ def load_library(file)
   }
   
   yaml_hash.each do |meaning, emojis| 
-    emoticons[["get_meaning"][emojis[1]] = meaning
+    emoticons["get_meaning"][emojis[1]] = meaning
   end
   
   emoticons
