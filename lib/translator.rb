@@ -24,6 +24,11 @@ end
 def get_japanese_emoticon(file, emoji)
   # code goes here
   output = load_library(file)["get_emoticon"][emoji]
+  
+  if !output
+    return "Sorry no emoji"
+  end
+  output
 end
 
 def get_english_meaning(file, emoji)
