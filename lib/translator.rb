@@ -5,7 +5,11 @@ require "yaml"
 def load_library(file)
   # code goes here
   
-  emoticons = YAML.load_file(file)
+  yaml_hash = YAML.load_file(file)
+  
+  yaml_hash.each do |meaning, emojis| 
+    
+  end
   
   pp emoticons
 end
