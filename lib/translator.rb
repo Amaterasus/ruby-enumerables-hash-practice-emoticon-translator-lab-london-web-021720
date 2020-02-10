@@ -21,10 +21,10 @@ def load_library(file)
 end
 
 
-def get_japanese_emoticon
+def get_japanese_emoticon(file, emoji)
   # code goes here
 end
 
-def get_english_meaning
+def get_english_meaning(file, emoji)
   # code goes here
 end
