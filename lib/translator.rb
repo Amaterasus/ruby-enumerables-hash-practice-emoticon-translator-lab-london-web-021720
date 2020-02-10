@@ -8,8 +8,8 @@ def load_library(file)
   yaml_hash = YAML.load_file(file)
   
   emoticons = {
-    :get_meaning => {},
-    :get_emoticon => {}
+    "get_meaning" => {},
+    "get_emoticon" => {}
   }
   
   yaml_hash.each do |meaning, emojis| 
