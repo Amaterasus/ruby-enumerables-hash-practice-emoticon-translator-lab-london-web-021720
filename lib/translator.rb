@@ -17,6 +17,7 @@ def load_library(file)
     
   end
   
+  emoticons
 end
 
 
