@@ -8,7 +8,7 @@ def load_library(file)
   yaml_hash = YAML.load_file(file)
   
   emoticons = {
-    "get_meaning": {}
+    "get_meaning": {},
     "get_emoticon": {}
   }
   
